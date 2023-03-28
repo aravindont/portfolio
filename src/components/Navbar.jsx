@@ -11,12 +11,14 @@ const Navbar = ({ toggleTheme, theme }) => {
       </button>
       <div className="flex items-center text-xs sm:text-sm border dark:border-zinc-700 border-zinc-400 rounded-full">
         <a
+          key="home"
           href="/"
           className="dark:text-white  dark:hover:bg-white/5 rounded-full py-2 px-4 transition duration-500"
         >
           Home
         </a>
         <a
+          key={"projects"}
           href="#projects"
           className="dark:text-white  dark:hover:bg-white/5 rounded-full py-2 px-4 transition duration-500"
         >

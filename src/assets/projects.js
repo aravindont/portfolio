@@ -1,7 +1,7 @@
 import savifyImg from "../assets/thumbnail/contact-list.png";
 import mobileImg from "../assets/thumbnail/home-page.png";
 import todoImg from "../assets/thumbnail/dashboard-page.png";
-
+import passwordGenImg from "../assets/thumbnail/password-generator.png";
 export const projects = [
   {
     id: 1,
@@ -40,5 +40,15 @@ export const projects = [
       "redux toolkit",
       "MERN",
     ],
+  },
+  {
+    id: 4,
+    thumbnailImg: passwordGenImg,
+    title: "Password Generator",
+    description:
+      "generates the password for the given password length and also password contains the selected option characters",
+    github: "https://github.com/aravindont/react-password-generator",
+    demoLink: "https://reactt-random-password-generator.netlify.app/",
+    tech: ["React", "Bootstrap", "fontawesome icons"],
   },
 ];

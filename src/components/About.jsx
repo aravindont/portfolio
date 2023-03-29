@@ -6,7 +6,7 @@ const About = () => {
       <div className="flex flex-col md:flex-row justify-between w-full">
         <div className="md:w-3/4 md:px-2">
           <p className="text-3xl sm:text-5xl font-bold animate1">
-            <span className="dark:text-white ">Aravind Ontagodi</span>
+            <span className="dark:text-white">Aravind Ontagodi</span>
           </p>
           <p className="text-zinc-500 mb-6 md:text-lg text-sm dark:text-white">
             Frontend Developer | Technical Writer

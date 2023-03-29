@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 export default function ProjectList() {
   return (
     <div className="mx-auto" id="projects">
-      <p className="md:text-4xl text-3xl dark:text-white  flex font-bold mb-4">
+      <p className="md:text-4xl text-3xl dark:text-white  flex font-bold mb-4 animate1">
         Projects
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

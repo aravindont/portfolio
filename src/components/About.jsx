@@ -1,5 +1,3 @@
-import resume from "../assets/aravind-resume.pdf";
-
 const About = () => {
   return (
     <div className="md:py-36 py-12 flex items-center ">
@@ -21,7 +19,7 @@ const About = () => {
             JavaScript, HTML, CSS, React, Node.js, Tailwind CSS
           </p>
           <a
-            href={resume}
+            href="https://drive.google.com/file/d/1ngWnh3z0B_EdynMataJzvHcVKR9gkx3t/view?usp=share_link"
             download
             className="sm:w-24 w-20 sm:h-11 h-10 mt-8 rounded flex items-center justify-center md:text-base text-sm border border-zinc-700 dark:text-white hover:bg-white/5 transition duration-500"
           >
